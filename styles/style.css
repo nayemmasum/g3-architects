@@ -138,6 +138,10 @@ button {
     width: 65%;
     justify-content: center;
     gap: 70px;
+    text-align: center;
+  }
+  .features .des button {
+    margin-left: 40px;
   }
 }
 
