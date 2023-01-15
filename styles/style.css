@@ -129,6 +129,7 @@ button {
     grid-template-columns: 1fr;
     gap: 30px;
     width: 100%;
+    justify-items: center;
   }
   .features {
     display: grid;
@@ -165,5 +166,8 @@ button {
     justify-content: center;
     gap: 70px;
     text-align: center;
+  }
+  .features .des button {
+    margin-left: 50px;
   }
 }
