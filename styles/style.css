@@ -1,7 +1,45 @@
+/* universal styles */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: #ffffff;
+}
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+/* header */
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+.header_container {
+  width: 90%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+nav .name {
+  font-weight: 700;
+}
+nav ul {
+  display: flex;
+  gap: 35px;
+}
+nav ul li {
+  font-size: 18px;
 }
