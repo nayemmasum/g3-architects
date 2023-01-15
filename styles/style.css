@@ -21,7 +21,7 @@ body {
 }
 section {
   width: 90%;
-  margin: 0 auto;
+  margin: 85px auto 0;
 }
 /* header */
 header {
@@ -75,4 +75,34 @@ button {
 }
 .hook img {
   margin: 20px 0 45px;
+}
+/* feature section */
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 65%;
+  justify-content: center;
+  gap: 70px;
+}
+.feature_pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.features .des button {
+  margin-left: 0;
+}
+.features h4 {
+  color: #727272;
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.features b {
+  color: #1e1e1e;
+}
+.features span {
+  color: #ff900e;
+  font-weight: bold;
 }
