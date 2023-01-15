@@ -114,7 +114,7 @@ button {
     flex-direction: column;
   }
   nav ul {
-    margin: 25px 0 0;
+    margin: 55px 0 0;
     align-items: center;
   }
   .hook_container {
@@ -137,5 +137,33 @@ button {
     width: 65%;
     justify-content: center;
     gap: 70px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1080px) {
+  nav {
+    align-items: center;
+  }
+  .hook_container {
+    width: 100%;
+    margin: auto;
+  }
+  .hook img {
+    width: 100%;
+  }
+  .feature_pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    width: 65%;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
   }
 }
