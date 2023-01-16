@@ -112,6 +112,9 @@ button {
   font-weight: bold;
 }
 /* loving features section  */
+.loving_features {
+  margin: 170px auto -190px;
+}
 .loving_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -219,11 +222,11 @@ footer {
     font-size: 29px;
     color: white;
     text-align: center;
-}
-.exp {
-  bottom: 145px;
-}
-/* .features {
+  }
+  .exp {
+    bottom: 145px;
+  }
+  /* .features {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -232,24 +235,24 @@ footer {
   gap: 70px;
   text-align: center;
 } */
-.loving_container {
-  display: grid;
-  grid-template-columns:1fr;
-  gap: 70px;
-}
-.loving_features h3 {
-  font-size: 35px;
-}
-section {
-  width: 80%;
-  margin: 35px auto 0;
-}
-.hook h3 {
-  font-size: 37px;
-}
-.features h4 {
-  font-size: 35px;
-}
+  .loving_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 70px;
+  }
+  .loving_features h3 {
+    font-size: 35px;
+  }
+  section {
+    width: 80%;
+    margin: 35px auto 0;
+  }
+  .hook h3 {
+    font-size: 37px;
+  }
+  .features h4 {
+    font-size: 35px;
+  }
 }
 /* medium screen  */
 @media screen and (min-width: 577px) and (max-width: 1080px) {
@@ -293,5 +296,8 @@ section {
   }
   .exp_container {
     margin: 0 auto;
-  
+  }
+  .loving_features {
+    margin: 30px auto -220px;
+  }
 }
