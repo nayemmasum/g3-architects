@@ -168,6 +168,28 @@ button {
   color: white;
   font-size: 25px;
 }
+.facts > h4 {
+  font-size: 35px;
+  margin: 0 0 20px;
+}
+.facts .properties {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.property_block {
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid orange;
+  border-radius: 8px;
+  margin: 75px 0;
+}
+.property_block h4 {
+  font-size: 30px;
+  margin: 10px;
+}
 /* footer section */
 footer {
   display: flex;
@@ -253,6 +275,9 @@ footer {
   .features h4 {
     font-size: 35px;
   }
+  .loving_features {
+    margin: 45px auto -80px;
+  }
 }
 /* medium screen  */
 @media screen and (min-width: 577px) and (max-width: 1080px) {
@@ -264,13 +289,13 @@ footer {
     margin: auto;
   }
   .hook img {
-    width: 100%;
+    width: 90%;
   }
   .feature_pictures {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    width: 100%;
+    gap: 50px;
+    width: 90%;
   }
   .features {
     display: grid;
@@ -288,6 +313,7 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
   }
   .loving_container {
     display: grid;
